@@ -1,0 +1,24 @@
+{
+  "name": "cypress-practica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexisNarvaez97/cypress-practica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexisNarvaez97/cypress-practica/issues"
+  },
+  "homepage": "https://github.com/AlexisNarvaez97/cypress-practica#readme",
+  "devDependencies": {
+    "cypress": "^7.4.0"
+  }
+}
