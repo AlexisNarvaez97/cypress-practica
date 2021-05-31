@@ -30,3 +30,13 @@ Cypress.Commands.add('hammerClicks', (rango, selector) => {
         cy.get(selector).as('btnDelete').click();
     }
 })
+
+
+Cypress.Commands.add('existValue', (selector, field) => {
+
+    cy.get(selector).then(($input) => {
+        const val = $input.val();
+        expect(val).to.eq(field)
+    })
+
+})
